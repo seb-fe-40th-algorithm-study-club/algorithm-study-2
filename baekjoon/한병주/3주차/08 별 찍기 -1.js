@@ -1,10 +1,9 @@
 const input = require('fs').readFileSync('예제.txt').toString().split(' ');
 
+let result = ""
 
-let result = 0
-
-for(let i = 1; i <= input[0]; i++){
-    result = result + i
+for(let i = 1; i <= Number(input[0]); i++){
+    result += "*".repeat(i) + "\n"
 }
 
 console.log(result)
