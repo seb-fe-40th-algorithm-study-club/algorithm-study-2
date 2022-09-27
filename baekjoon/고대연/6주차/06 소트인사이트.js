@@ -1,0 +1,1 @@
+console.log(require('fs').readFileSync('../input.txt').toString().split("").sort((a, b) => b - a).join(""));
