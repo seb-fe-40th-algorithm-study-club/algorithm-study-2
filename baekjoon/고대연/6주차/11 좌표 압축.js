@@ -16,10 +16,3 @@ console.log(splitinput.map(el => map.get(el)).join(" "))
 // 중복제거 이후 정렬을 하고 해당인덱스를 map으로 저장해둠
 // map으로 해당 키값에 해당하는 순서(답)을 저장해 둠.
 // 원본배열을 돌아가면서 key에 해당하는 value를 찾게 함.
-
-
-
-// input=require("fs").readFileSync(0,"utf8").split("\n")[1].split(" ").map(e=>+e)
-
-// n=new Map([...new Set(input)].sort((e,n)=>e-n).map((e,n)=>[e,n]))
-// console.log(e.map(e=>n.get(e)).join(" "))
